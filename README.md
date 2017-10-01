@@ -1,0 +1,2 @@
+# flexbean
+Flexible Java Bean
