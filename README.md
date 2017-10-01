@@ -1,12 +1,12 @@
 # FlexBean
 **Flexible Java Bean**
 
-Unlike other dynamically typed languages, Java is a statically typed language.
-Although this is beneficial in a way, somethimes you need flexible containers to carry information in it.
-Because it is hard (sometimes impossible) to create a Java bean for all information schema.
+Unlike dynamically typed languages like JavaScript, Java is a statically typed language.
+Although this is beneficial in some ways, somethimes you will need flexible containers to carry information in it.
+Because it is hard (sometimes impossible) to create a Java bean for beforehand unknown data types and structures.
 
-For example, you are presenting user an SQL input and sending that SQL directly to database.
-That means resultset may have any number of columns with any type. This makes impossible to use regular Java beans to carry informatin. This is where FlexBean comes in. FlexBean provides a flexible class which lets you create any property with any type, any time. Not only that, you can also change type and value of properties in runtime.
+For example, you are providing an SQL input to user and you send that SQL directly to database.
+So it's up to users to write the SQL. That means resultset may have any number of columns with any type. This makes impossible to use regular Java beans to carry informatin. This is where FlexBean comes in. FlexBean provides a flexible class which lets you create any property with any type, any time. Not only that, you can also change type and value of properties in runtime.
 
 Examples:
 
