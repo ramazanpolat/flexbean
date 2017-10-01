@@ -30,7 +30,7 @@ int age = agePeriod.getYears();
 personBean.set("age", age);
 
 
-// get read what we put in personBean
+// read what we put in personBean
 for (String propertyName: personBean.getPropertyNames()){
     System.out.println(String.format("Property:%s - type:%s - value:%s",
             propertyName,
